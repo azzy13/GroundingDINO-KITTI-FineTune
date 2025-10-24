@@ -2,7 +2,7 @@
     "train": [
         {
             "dataset_mode": "odvg",
-            "anno": "../vlmtest/GroundingDINO/dataset/kitti/training/train_grounding_fixed.jsonl",
+            "anno": "../vlmtest/GroundingDINO/dataset/kitti/training/kitti_odvg.jsonl",
             "root": "../vlmtest/GroundingDINO/dataset/kitti/training/image_02",
             "remove_difficult": false
         }
