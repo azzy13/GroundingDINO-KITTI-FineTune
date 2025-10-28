@@ -3,16 +3,14 @@
         {
             "dataset_mode": "odvg",
             "anno": "../vlmtest/GroundingDINO/dataset/kitti/training/kitti_odvg.jsonl",
-            "root": "../vlmtest/GroundingDINO/dataset/kitti/training/image_02",
-            "remove_difficult": false
+            "root": "../vlmtest/GroundingDINO/dataset/kitti/training/image_02"
         }
     ],
     "val": [
         {
             "dataset_mode": "coco",
             "anno": "../vlmtest/GroundingDINO/dataset/kitti/validation/val_kitti.json",
-            "root": "../vlmtest/GroundingDINO/dataset/kitti/validation/image_02",
-            "remove_difficult": false
+            "root": "../vlmtest/GroundingDINO/dataset/kitti/validation/image_02"
         }
     ]
 }

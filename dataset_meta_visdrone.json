@@ -1,0 +1,17 @@
+{
+    "train": [
+        {
+            "dataset_mode": "odvg",
+            "anno": "../vlmtest/GroundingDINO/dataset/visdrone/VisDrone2019-MOT-train/dataset_odvg.jsonl",
+            "root": "../vlmtest/GroundingDINO/dataset/visdrone/VisDrone2019-MOT-train",
+            "label_map": "../vlmtest/GroundingDINO/dataset/visdrone/VisDrone2019-MOT-train/label_map_odvg.json"
+        }
+    ],
+    "val": [
+        {
+            "dataset_mode": "coco",
+            "anno": "../vlmtest/GroundingDINO/dataset/visdrone/VisDrone2019-MOT-val/dataset_coco.json",
+            "root": "../vlmtest/GroundingDINO/dataset/visdrone/VisDrone2019-MOT-val"
+        }
+    ]
+}
