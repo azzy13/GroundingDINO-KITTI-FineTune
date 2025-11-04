@@ -21,7 +21,5 @@ python -m torch.distributed.launch --nproc_per_node=2 main.py \
   --pretrain_model_path "$PRETRAIN" \
   --num_workers 32 \
   --options \
-    lr=1e-4 \
     batch_size=8 \
-    epochs=100 \
     use_coco_eval=False
